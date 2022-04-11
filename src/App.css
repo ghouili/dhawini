@@ -5,8 +5,8 @@ body {
 
 .NavBar {
   width: 100vw;
-  background-color: #1A29D3;
-  height: 10vh;
+  background-color: #6D83E6;
+  height: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,7 +32,7 @@ body {
 .links a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 18px;
   font-weight: 500;
   display: block;
   padding: 0.8vw 0.7vw;  
@@ -41,7 +41,7 @@ body {
 .links a:hover,
 .links a.active {
   /* background-color: blue; */
-  color: aqua;
+  color: #FBAB21;
 }
 .menu_icon_container {
   width: 10vw ;
@@ -50,7 +50,7 @@ body {
 }
 
 .menu_icon {
-  font-size: 2vw;
+  font-size: 25px;
   cursor: pointer;
   color: #fff;
 }
@@ -58,8 +58,8 @@ body {
 /* side bar design ::::::::::::::::::::::::::::::::: */
 
 .SideBar {
-  background-color: #1A29D3;
-  width: 10vw;
+  background-color: #6D83E6;
+  width: 190px;
   height: 95vh;
   left: -100%;
   position: absolute;
@@ -78,11 +78,22 @@ body {
 .SideBar a {
   text-decoration: none;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 18px;
   font-weight: 500;
   display: block;
   padding: 0.8vw 0.7vw;  
   border-radius: 6px;
+  align-items: 'center';
+  width: 100%;
+}
+
+.SideBar a:hover,
+.SideBar a.active {
+  background-color: #FBAB21;
+}
+
+.SideBar a svg {
+  margin-right: 5px;
 }
 
 /* main desing :::::::::::::: */
@@ -97,7 +108,7 @@ main {
   font-family: cursive;
 }
 .Main_content.active {
-  margin-left: 12.5vw;
+  margin-left: 220px;
   width: 87.5vw;
   transition: all 0.65s;
 }
